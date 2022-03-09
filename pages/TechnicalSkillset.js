@@ -2,14 +2,12 @@ import React from 'react'
 import styles from '../styles/technicalSkillset.module.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import Head from 'next/head';
 import BigRedText from '../components/BigRedText';
 import Link from 'next/link';
 import { IoIosArrowDropright, IoIosRemoveCircleOutline, IoIosArrowDropleft } from "react-icons/io";
 import { RiArrowDownSLine } from "react-icons/ri";
 import TextOnRightSide from '../components/TextOnRightSide';
-import SkillsDropDown from '../components/skillsDropDown';
-import FormInput from '../components/FormInput';
+
 
 
 

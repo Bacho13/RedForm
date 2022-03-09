@@ -1,9 +1,9 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import styles from '../styles/PersonalInfo.module.css';
 import BigRedText from '../components/BigRedText';
 import { IoIosArrowDropleft } from "react-icons/io";
-import { IoIosArrowDropright, IoIosRemoveCircleOutline } from "react-icons/io";
+import { IoIosArrowDropright } from "react-icons/io";
 import Link from 'next/link';
 import TextOnRightSide from '../components/TextOnRightSide';
 

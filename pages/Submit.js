@@ -1,5 +1,5 @@
 import React from 'react'
-import GreyUnderLineText from '../components/greyUnderLineText';
+import GreyUnderLineText from '../components/GreyUnderLineText';
 import RedButton from '../components/RedButton'
 import styles from '../styles/Submit.module.css';
 import Link from 'next/link';

@@ -1,11 +1,11 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import BigRedText from '../components/BigRedText';
 import styles from '../styles/Covid.module.css';
 import { VscCalendar } from "react-icons/vsc";
 import TextOnRightSide from '../components/TextOnRightSide';
 import Link from 'next/link';
-import { IoIosArrowDropright, IoIosRemoveCircleOutline, IoIosArrowDropleft } from "react-icons/io";
+import { IoIosArrowDropright, IoIosArrowDropleft } from "react-icons/io";
 
 function Covid() {
     const [work_preference, setWork_preference] = useState('');

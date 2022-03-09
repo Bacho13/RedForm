@@ -3,7 +3,7 @@ import styles from '../styles/Insights.module.css';
 import BigRedText from '../components/BigRedText';
 import TextOnRightSide from '../components/TextOnRightSide';
 import Link from 'next/link';
-import { IoIosArrowDropright, IoIosRemoveCircleOutline, IoIosArrowDropleft } from "react-icons/io";
+import { IoIosArrowDropright, IoIosArrowDropleft } from "react-icons/io";
 import { useState } from 'react';
 
 function Insights() {
