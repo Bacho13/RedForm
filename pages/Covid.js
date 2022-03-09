@@ -139,7 +139,7 @@ function Covid() {
                                     name="vaccinated"
                                     id="No"
                                     value="false" />
-                                <label for="From Sairme Office" className={styles.Label}>No</label>
+                                <label htmlFor="From Sairme Office" className={styles.Label}>No</label>
                             </div>
                         </div>
                     </div>
