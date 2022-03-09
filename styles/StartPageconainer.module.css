@@ -1,0 +1,24 @@
+.background{
+    background-color: rgba(000, 000, 000, 0.9);
+    background-image: url("../assets/img/stars.png");
+    background-size: contain;
+    width: 100wv;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+.Pageconainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.imageDiv{
+    width: 21.350vw;
+    height: 19.398vw;
+    
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.button{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.250vw;
+    line-height: 1.524vw;
+    width: 17.604vw;
+    height: 3.438vw;
+    border: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 1);
+    text-decoration-line: underline;
+    cursor: pointer;
+    padding-top: 0.938vw;
+}

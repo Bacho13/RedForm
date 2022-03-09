@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+ .optionContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.outPutcont{
+    margin-bottom: 50px;
+}
+.select{
+    width: 23.698vw;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 0.729vw;
+    border: none;
+    outline: 0.052vw solid rgba(82, 85, 87, 1);
+    padding-right: 10px;
+    padding: 0.885vw 2.969vw;
+    appearance: none;
+}
+.skillOptionDiv{
+    position: relative;
+}
+.iconInSkillDropDown{
+    position: absolute;
+    top: 0.7vw;
+    right: 0.5vw;
+    color: rgba(254, 59, 31, 1);
+}
+.addinputsBtn{
+    width: 10.469vw;
+    font-family: Montserrat;
+    line-height: 0.762vw;
+    font-size: 0.625vw;
+    padding: 0.372vw 0 ;
+    border: none;
+    color: #fff;
+    background-color: rgba(254, 59, 31, 1);
+    margin-top: 2vw;
+   
+}
+.skillInput{
+    width: 23.698vw;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 0.729vw;
+    padding: 0.885vw 2.969vw;
+    border: none;
+    outline: 0.052vw solid rgba(82, 85, 87, 1);
+    margin: 1.927vw 0;
+    margin-bottom: 0px;
+}
+.inputErorContainer{
+    width: 100%;
+}
+.errorP{
+    display: none;
+}
+.skillInput:invalid{
+    outline: 1px solid rgba(254, 59, 31, 1);
+}
+.skillInput:invalid ~ .errorP {
+    display: block;
+    color: rgba(254, 59, 31, 1);
+    font-family: Montserrat;
+    font-size: .773vw;
+    font-weight: bold;
+    font-style: italic;
+  }
+.skillUl{
+    
+    width: 23.698vw;
+    list-style-type:none;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 0.729vw;
+    border: none;
+    outline: 0.052vw solid rgba(82, 85, 87, 1);
+    padding-right: 10px;
+    padding: 0.885vw 2.969vw;
+    appearance: none;
+    position: relative;
+    
+}
+.removeIcon{
+    position: absolute;
+    left: 21.625vw;
+    top: 0vw;
+    color: rgba(254, 59, 31, 1);
+    width: 1.542vw;
+    height: 1.542vw;
+    cursor: pointer;
+    top: 0.55vw;
+
+}
+
+
+
+.skillInput:invalid ~ .errorPFname {
+    display: block;
+    color: rgba(254, 59, 31, 1);
+    font-family: Montserrat;
+    font-size: 0.573vw; 
+    font-weight: 400;
+    font-style: italic;
+  }
+
+
+
+.page{
+    display: flex; 
+    overflow: hidden;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.leftSide{
+    width: 50%;
+    background-color: #fff;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+.rightSide{
+    width: 50%;
+    background-color: #151718;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.a{
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.left{
+    color: rgba(254, 59, 31, 1);
+    font-weight: bolder;
+    width: 1.233vw;
+    height: 1.233vw;
+    cursor: pointer;
+    ;
+}
+.right{
+    color: rgba(254, 59, 31, 1);
+    font-weight: bolder;
+    width: 1.233vw;
+    height: 1.233vw;
+    cursor: pointer;
+}
+.markDot{
+    width: 0.833vw;
+    height: 0.833vw;
+    border-radius: 50%;
+    background-color: rgba(254, 59, 31, .1);
+    
+}
+.active{
+    background-color: rgba(254, 59, 31, 1);
+    width: 0.833vw;
+    height: 0.833vw;
+    border-radius: 50%;
+}
+.content{
+    width: 37.292vw;
+    
+}
+.redText{
+    text-align: left !important;
+}
+.page{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.pageMark{
+    display: flex;
+    width: 11.823vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.rdobtn{
+    cursor: pointer;
+    width: 0.625vw;
+    height: 0.625vw;
+    color: rgba(41, 59, 105, 1);
+}
+.Label{
+    font-family: Montserrat;
+    font-weight: 400;
+    color:  rgba(0, 0, 0, 1) ;
+    margin-left: 0.35vw;
+    font-size: 0.726vw;
+    line-height: 0.889vw;
+}
+.question{
+    font-size: 0.938vw;
+    line-height: 1.143vw;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}
+
+.textArea{
+    resize: none;
+    width: 27.865vw;
+    height: 6.354vw;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.textArea:invalid{
+    outline:rgba(254, 59, 31, 1); ;
+}
+.textArea:invalid ~.textareaEror{
+    display: block;
+    color: rgba(254, 59, 31, 1);
+    font-family: Montserrat;
+    font-size: .773vw;
+    font-weight: bold;
+    font-style: italic;
+}
+.textareaEror{
+    display: none;
+}
+.remove{
+    display: none;
+}
+/* .textArea:placeholder-shown~.textareaEror{
+    display: none;
+} */
+
+

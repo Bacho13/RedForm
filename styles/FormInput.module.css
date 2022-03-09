@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+.input{
+    width: 23.698vw;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 0.729vw;
+    padding: 0.885vw 2.969vw;
+    border: none;
+    outline: 0.052vw solid rgba(82, 85, 87, 1);
+    margin: 1.927vw 0;
+}
+
+.input:focus::placeholder{
+     color: transparent;
+}
+.input:focus:invalid{
+    outline: 0.052vw  solid rgba(82, 85, 87, 1);
+}
+.input:invalid{
+    outline: 0.156vw solid rgba(254, 59, 31, 1);
+}
+
+
+/* .FormInput:valid{
+    outline: 1px solid rgba(82, 85, 87, 1); 
+} */

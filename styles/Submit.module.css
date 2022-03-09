@@ -1,0 +1,11 @@
+.page{
+    background-color: #151718;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.redButton{
+    margin-bottom: 2vw;
+}

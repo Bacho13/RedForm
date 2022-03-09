@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.textStyle{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.250vw;
+    line-height: 2.5vw;
+    color: rgba(255, 255, 255, 1);
+    width: 36.719vw;
+    margin: 9.375vw auto;
+    text-align: left;
+}
