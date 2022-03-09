@@ -50,7 +50,7 @@ function Covid() {
                                     name="work_preference"
                                     id="From Sairme Office"
                                     value="From Sairme Office" />
-                                <label for="From Sairme Office" className={styles.Label}>From Sairme Office</label>
+                                <label htmlFor="From Sairme Office" className={styles.Label}>From Sairme Office</label>
                             </div>
 
                             <div className={styles.inputCont}>
@@ -59,7 +59,7 @@ function Covid() {
                                     name="work_preference"
                                     id="From Home"
                                     value="From Home" />
-                                <label for="From Home" className={styles.Label}>From Home</label>
+                                <label htmlFor="From Home" className={styles.Label}>From Home</label>
                             </div>
 
                             <div className={styles.inputCont}>
@@ -68,7 +68,7 @@ function Covid() {
                                     name="work_preference"
                                     id="Hybrid"
                                     value="Hybrid" />
-                                <label for="Hybrid" className={styles.Label}>Hybrid</label>
+                                <label htmlFor="Hybrid" className={styles.Label}>Hybrid</label>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ function Covid() {
                                     name="had_covid"
                                     id="YES"
                                     value="true" />
-                                <label for="From Sairme Office" className={styles.Label}>Yes</label>
+                                <label htmlFor="From Sairme Office" className={styles.Label}>Yes</label>
                             </div>
                         </div>
                         <div className={styles.answers}>
@@ -98,7 +98,7 @@ function Covid() {
                                     name="had_covid"
                                     id="No"
                                     value="false" />
-                                <label for="From Sairme Office" className={styles.Label}>No</label>
+                                <label htmlFor="From Sairme Office" className={styles.Label}>No</label>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ function Covid() {
                             className={styles.dateInput}
                             id="date" type="date"
                             placeholder="date" />
-                        <label for="date"><VscCalendar className={styles.covidCalendar} /></label>
+                        <label htmlFor="date"><VscCalendar className={styles.covidCalendar} /></label>
                     </div>
 
                     {/* ...........................არის თუ არა აცრილი.............................. */}
@@ -128,7 +128,7 @@ function Covid() {
                                     name="vaccinated"
                                     id="YES"
                                     value="true" />
-                                <label for="From Sairme Office" className={styles.Label}>yes</label>
+                                <label htmlFor="From Sairme Office" className={styles.Label}>yes</label>
                             </div>
                         </div>
                         <div className={styles.answers}>
@@ -155,7 +155,7 @@ function Covid() {
                             className={styles.dateInput}
                             id="vaccinated_at" type="date"
                         />
-                        <label for="vaccinated_at"><VscCalendar className={styles.covidCalendar} /></label>
+                        <label htmlFor="vaccinated_at"><VscCalendar className={styles.covidCalendar} /></label>
                     </div>
 
                 </form>
@@ -168,7 +168,7 @@ function Covid() {
                     <div className={styles.markDot} ></div>
                     <Link href="/Insights" ><a className={styles.a}><IoIosArrowDropright className={styles.right} /></a></Link>
                 </div>
-                <button onClick={showCons}>cons</button>
+                
 
             </div>
 

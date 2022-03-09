@@ -40,7 +40,7 @@ function Insights() {
                                     name="will_organize_devtalk"
                                     id="YES"
                                     value="true" />
-                                <label for="From Sairme Office" className={styles.Label}>Yes</label>
+                                <label htmlFor="From Sairme Office" className={styles.Label}>Yes</label>
                             </div>
                         </div>
                         <div className={styles.answers}>
@@ -52,7 +52,7 @@ function Insights() {
                                     name="will_organize_devtalk"
                                     id="NO"
                                     value="false" />
-                                <label for="From Sairme Office" className={styles.Label}>No</label>
+                                <label htmlFor="From Sairme Office" className={styles.Label}>No</label>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ function Insights() {
                         pattern=".{8,}"></textarea>
                     </div>
 
-                    <button onClick={show} >btn</button>
+                   
 
 
 

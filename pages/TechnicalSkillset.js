@@ -74,7 +74,7 @@ function TechnicalSkillset() {
                             <option value="" disabled selected>Skills</option>
                             {
                                 fetchedskills.map(skill => (
-                                    <option value={skill.id} >{skill.title}</option>
+                                    <option key={skill.id} value={skill.id} >{skill.title}</option>
                                 ))
                             }
 
@@ -98,7 +98,7 @@ function TechnicalSkillset() {
                 <div className={styles.outPutcont}>
                     {
                         skills.map(skill => (
-                            <div>
+                            <div key={skill.id}>
 
                                 <ul className={styles.skillUl}>
                                     <li className={styles.skillLi} >{skillWithNum[skill.id - 1]} Years of Experience:  {skill.experience}</li>

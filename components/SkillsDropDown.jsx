@@ -61,7 +61,7 @@ function SkillsDropDown(props) {
     }
     useEffect(() => {
       setInputedSkills(inputedSkills);
-    });
+    }, [inputedSkills]);
  
   
     const removeSkill = (e) => {
@@ -102,7 +102,7 @@ function SkillsDropDown(props) {
 
 
       {inputedSkills.map(skill => (
-      <div className={styles.resultDiv} name = {skill.skill} onClick={removeSkill()}>
+      <div key={skill.id} className={styles.resultDiv} name = {skill.skill} onClick={removeSkill()}>
         <p className={styles.resultText}> {skill.skill}    Years of Experience:{skill.year}  </p>
         <IoIosRemoveCircleOutline className={styles.removeIcon}  />
       </div>
